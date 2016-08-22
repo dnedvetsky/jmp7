@@ -1,0 +1,9 @@
+This is a simple multithreaded race programm. It creates required numeber of participants and runs a race with them.
+First participant is always disqualified - he took magical pony for the ride so judge is not happy.
+
+Classes in programm:
+Car - using slightly modified provided class;
+CarsInTheRace - technically a wrapper for transforming cars into a threads before launch
+Main - self-explanatory
+Road - created with some parameters, race is performed there, winner is determined on the race
+Judge - helper used to count down and disqualify cars.
